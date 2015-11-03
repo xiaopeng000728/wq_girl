@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D65FB6141BE8CD5200110AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D65FB6131BE8CD5200110AF0 /* main.m */; };
+		D65FB6171BE8CD5200110AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D65FB6161BE8CD5200110AF0 /* AppDelegate.m */; };
+		D65FB61A1BE8CD5200110AF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65FB6191BE8CD5200110AF0 /* ViewController.m */; };
+		D65FB61D1BE8CD5200110AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65FB61B1BE8CD5200110AF0 /* Main.storyboard */; };
+		D65FB6201BE8CD5200110AF0 /* SnailGril.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D65FB61E1BE8CD5200110AF0 /* SnailGril.xcdatamodeld */; };
+		D65FB6221BE8CD5200110AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D65FB6211BE8CD5200110AF0 /* Assets.xcassets */; };
+		D65FB6251BE8CD5200110AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65FB6231BE8CD5200110AF0 /* LaunchScreen.storyboard */; };
+		D65FB6301BE8CD5200110AF0 /* SnailGrilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D65FB62F1BE8CD5200110AF0 /* SnailGrilTests.m */; };
+		D65FB63B1BE8CD5200110AF0 /* SnailGrilUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D65FB63A1BE8CD5200110AF0 /* SnailGrilUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D65FB62C1BE8CD5200110AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D65FB6071BE8CD5200110AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D65FB60E1BE8CD5200110AF0;
+			remoteInfo = SnailGril;
+		};
+		D65FB6371BE8CD5200110AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D65FB6071BE8CD5200110AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D65FB60E1BE8CD5200110AF0;
+			remoteInfo = SnailGril;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D65FB60F1BE8CD5200110AF0 /* SnailGril.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnailGril.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65FB6131BE8CD5200110AF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D65FB6151BE8CD5200110AF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D65FB6161BE8CD5200110AF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D65FB6181BE8CD5200110AF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D65FB6191BE8CD5200110AF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D65FB61C1BE8CD5200110AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D65FB61F1BE8CD5200110AF0 /* SnailGril.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SnailGril.xcdatamodel; sourceTree = "<group>"; };
+		D65FB6211BE8CD5200110AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D65FB6241BE8CD5200110AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D65FB6261BE8CD5200110AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65FB62B1BE8CD5200110AF0 /* SnailGrilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnailGrilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65FB62F1BE8CD5200110AF0 /* SnailGrilTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnailGrilTests.m; sourceTree = "<group>"; };
+		D65FB6311BE8CD5200110AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65FB6361BE8CD5200110AF0 /* SnailGrilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnailGrilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D65FB63A1BE8CD5200110AF0 /* SnailGrilUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnailGrilUITests.m; sourceTree = "<group>"; };
+		D65FB63C1BE8CD5200110AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D65FB60C1BE8CD5200110AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65FB6281BE8CD5200110AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65FB6331BE8CD5200110AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D65FB6061BE8CD5200110AF0 = {
+			isa = PBXGroup;
+			children = (
+				D65FB6111BE8CD5200110AF0 /* SnailGril */,
+				D65FB62E1BE8CD5200110AF0 /* SnailGrilTests */,
+				D65FB6391BE8CD5200110AF0 /* SnailGrilUITests */,
+				D65FB6101BE8CD5200110AF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D65FB6101BE8CD5200110AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D65FB60F1BE8CD5200110AF0 /* SnailGril.app */,
+				D65FB62B1BE8CD5200110AF0 /* SnailGrilTests.xctest */,
+				D65FB6361BE8CD5200110AF0 /* SnailGrilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D65FB6111BE8CD5200110AF0 /* SnailGril */ = {
+			isa = PBXGroup;
+			children = (
+				D65FB6151BE8CD5200110AF0 /* AppDelegate.h */,
+				D65FB6161BE8CD5200110AF0 /* AppDelegate.m */,
+				D65FB6181BE8CD5200110AF0 /* ViewController.h */,
+				D65FB6191BE8CD5200110AF0 /* ViewController.m */,
+				D65FB61B1BE8CD5200110AF0 /* Main.storyboard */,
+				D65FB6211BE8CD5200110AF0 /* Assets.xcassets */,
+				D65FB6231BE8CD5200110AF0 /* LaunchScreen.storyboard */,
+				D65FB6261BE8CD5200110AF0 /* Info.plist */,
+				D65FB61E1BE8CD5200110AF0 /* SnailGril.xcdatamodeld */,
+				D65FB6121BE8CD5200110AF0 /* Supporting Files */,
+			);
+			path = SnailGril;
+			sourceTree = "<group>";
+		};
+		D65FB6121BE8CD5200110AF0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D65FB6131BE8CD5200110AF0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D65FB62E1BE8CD5200110AF0 /* SnailGrilTests */ = {
+			isa = PBXGroup;
+			children = (
+				D65FB62F1BE8CD5200110AF0 /* SnailGrilTests.m */,
+				D65FB6311BE8CD5200110AF0 /* Info.plist */,
+			);
+			path = SnailGrilTests;
+			sourceTree = "<group>";
+		};
+		D65FB6391BE8CD5200110AF0 /* SnailGrilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D65FB63A1BE8CD5200110AF0 /* SnailGrilUITests.m */,
+				D65FB63C1BE8CD5200110AF0 /* Info.plist */,
+			);
+			path = SnailGrilUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D65FB60E1BE8CD5200110AF0 /* SnailGril */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65FB63F1BE8CD5200110AF0 /* Build configuration list for PBXNativeTarget "SnailGril" */;
+			buildPhases = (
+				D65FB60B1BE8CD5200110AF0 /* Sources */,
+				D65FB60C1BE8CD5200110AF0 /* Frameworks */,
+				D65FB60D1BE8CD5200110AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnailGril;
+			productName = SnailGril;
+			productReference = D65FB60F1BE8CD5200110AF0 /* SnailGril.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D65FB62A1BE8CD5200110AF0 /* SnailGrilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65FB6421BE8CD5200110AF0 /* Build configuration list for PBXNativeTarget "SnailGrilTests" */;
+			buildPhases = (
+				D65FB6271BE8CD5200110AF0 /* Sources */,
+				D65FB6281BE8CD5200110AF0 /* Frameworks */,
+				D65FB6291BE8CD5200110AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D65FB62D1BE8CD5200110AF0 /* PBXTargetDependency */,
+			);
+			name = SnailGrilTests;
+			productName = SnailGrilTests;
+			productReference = D65FB62B1BE8CD5200110AF0 /* SnailGrilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D65FB6351BE8CD5200110AF0 /* SnailGrilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D65FB6451BE8CD5200110AF0 /* Build configuration list for PBXNativeTarget "SnailGrilUITests" */;
+			buildPhases = (
+				D65FB6321BE8CD5200110AF0 /* Sources */,
+				D65FB6331BE8CD5200110AF0 /* Frameworks */,
+				D65FB6341BE8CD5200110AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D65FB6381BE8CD5200110AF0 /* PBXTargetDependency */,
+			);
+			name = SnailGrilUITests;
+			productName = SnailGrilUITests;
+			productReference = D65FB6361BE8CD5200110AF0 /* SnailGrilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D65FB6071BE8CD5200110AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "牵着蜗牛走的我";
+				TargetAttributes = {
+					D65FB60E1BE8CD5200110AF0 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					D65FB62A1BE8CD5200110AF0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D65FB60E1BE8CD5200110AF0;
+					};
+					D65FB6351BE8CD5200110AF0 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = D65FB60E1BE8CD5200110AF0;
+					};
+				};
+			};
+			buildConfigurationList = D65FB60A1BE8CD5200110AF0 /* Build configuration list for PBXProject "SnailGril" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D65FB6061BE8CD5200110AF0;
+			productRefGroup = D65FB6101BE8CD5200110AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D65FB60E1BE8CD5200110AF0 /* SnailGril */,
+				D65FB62A1BE8CD5200110AF0 /* SnailGrilTests */,
+				D65FB6351BE8CD5200110AF0 /* SnailGrilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D65FB60D1BE8CD5200110AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65FB6251BE8CD5200110AF0 /* LaunchScreen.storyboard in Resources */,
+				D65FB6221BE8CD5200110AF0 /* Assets.xcassets in Resources */,
+				D65FB61D1BE8CD5200110AF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65FB6291BE8CD5200110AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65FB6341BE8CD5200110AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D65FB60B1BE8CD5200110AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65FB61A1BE8CD5200110AF0 /* ViewController.m in Sources */,
+				D65FB6171BE8CD5200110AF0 /* AppDelegate.m in Sources */,
+				D65FB6141BE8CD5200110AF0 /* main.m in Sources */,
+				D65FB6201BE8CD5200110AF0 /* SnailGril.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65FB6271BE8CD5200110AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65FB6301BE8CD5200110AF0 /* SnailGrilTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D65FB6321BE8CD5200110AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D65FB63B1BE8CD5200110AF0 /* SnailGrilUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D65FB62D1BE8CD5200110AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D65FB60E1BE8CD5200110AF0 /* SnailGril */;
+			targetProxy = D65FB62C1BE8CD5200110AF0 /* PBXContainerItemProxy */;
+		};
+		D65FB6381BE8CD5200110AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D65FB60E1BE8CD5200110AF0 /* SnailGril */;
+			targetProxy = D65FB6371BE8CD5200110AF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D65FB61B1BE8CD5200110AF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65FB61C1BE8CD5200110AF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D65FB6231BE8CD5200110AF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D65FB6241BE8CD5200110AF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D65FB63D1BE8CD5200110AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D65FB63E1BE8CD5200110AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D65FB6401BE8CD5200110AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnailGril/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wq-girl.cn.SnailGril";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D65FB6411BE8CD5200110AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SnailGril/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wq-girl.cn.SnailGril";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D65FB6431BE8CD5200110AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnailGrilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wq-girl.cn.SnailGrilTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnailGril.app/SnailGril";
+			};
+			name = Debug;
+		};
+		D65FB6441BE8CD5200110AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SnailGrilTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wq-girl.cn.SnailGrilTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnailGril.app/SnailGril";
+			};
+			name = Release;
+		};
+		D65FB6461BE8CD5200110AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnailGrilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wq-girl.cn.SnailGrilUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnailGril;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D65FB6471BE8CD5200110AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SnailGrilUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "wq-girl.cn.SnailGrilUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SnailGril;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D65FB60A1BE8CD5200110AF0 /* Build configuration list for PBXProject "SnailGril" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65FB63D1BE8CD5200110AF0 /* Debug */,
+				D65FB63E1BE8CD5200110AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D65FB63F1BE8CD5200110AF0 /* Build configuration list for PBXNativeTarget "SnailGril" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65FB6401BE8CD5200110AF0 /* Debug */,
+				D65FB6411BE8CD5200110AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D65FB6421BE8CD5200110AF0 /* Build configuration list for PBXNativeTarget "SnailGrilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65FB6431BE8CD5200110AF0 /* Debug */,
+				D65FB6441BE8CD5200110AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D65FB6451BE8CD5200110AF0 /* Build configuration list for PBXNativeTarget "SnailGrilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D65FB6461BE8CD5200110AF0 /* Debug */,
+				D65FB6471BE8CD5200110AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D65FB61E1BE8CD5200110AF0 /* SnailGril.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D65FB61F1BE8CD5200110AF0 /* SnailGril.xcdatamodel */,
+			);
+			currentVersion = D65FB61F1BE8CD5200110AF0 /* SnailGril.xcdatamodel */;
+			path = SnailGril.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D65FB6071BE8CD5200110AF0 /* Project object */;
+}
